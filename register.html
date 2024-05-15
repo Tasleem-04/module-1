@@ -1,0 +1,47 @@
+<html>
+<form>
+<h1><p>Dr.APJ Abdul  Kalam School of Engineering</p></h1>
+<h2>Students Registration Form</h2>
+<ol>
+<li><label>First name:<input type="text"></label></li>
+<li><label>Last name:<input type="text"></label></li>
+<li><label>Email ID:<input type="text"></label></li>
+<li><label>password:<input type="text"></label></li>
+<li><label>Re-type password:<input type="text"><label></li>
+<li><label>Contact:<input type="text"></label></li>
+<li><label>Gender:<input type="text"></label></li>
+<ul>
+<li><input type="radio"
+     name="gender"
+     value="Male">Male</li>
+<li><input type="radio"
+     name="gender"
+     value="Female">Female</li>
+<li><input type="radio"
+     name="gender"
+     value="other">other</li>
+</ul>
+<label>Date of Birth:</label>
+<input type ="text" list = "years range" name = "year">
+<datalist id ="years">
+<option value ="between 2005 to 2010">
+<option value ="between 2011 to 2025">
+<option value ="between 2026 to 2030">
+</datalist><br>
+<label>Country:</label>
+<input type ="text" list = "country range" name = "country">
+<datalist id ="country range">
+<option value ="CET">
+<option value ="COMED-K">
+<option value ="NEET"> 
+<option value ="JEE">
+</datalist><br>
+<label>Enquiry:</label><textarea name="enquiry" rows="10" cols="50" maxlength="100" placeholder="enter enquiry less than 100 words"></textarea>
+<li><input type="checkbox"
+     value="You can call/Email me">You can call/Email me</li>
+<input type="submit">
+<input type="reset"
+       value= "refresh">
+</ol>
+</form>
+</html>
